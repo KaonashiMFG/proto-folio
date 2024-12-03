@@ -5,8 +5,25 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-      @apply flex min-h-screen justify-center items-center;
-    }
+  body {
+    @apply flex h-[500vh] bg-background;
+  } 
+
+  span,
+  p,
+  h1,
+  li {
+    /* color: #fdfff7; */
+    @apply text-regularText font-rubik;
+  }
 }
-  
+
+@layer components {
+  #root {
+    @apply w-full;
+  }
+
+  .onHover {
+    @apply hover:rounded-3xl hover:border-secondBoxColor hover:px-3;
+  }
+}
