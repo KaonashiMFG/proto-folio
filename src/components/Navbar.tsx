@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex justify-between fixed items-center p-2 px-5 bg-navbar w-full shadow-lg">
+    <nav className="flex justify-between fixed items-center p-2 px-5 bg-navbar w-full shadow-xl z-50">
       {/* title */}
       <p className="text-black font-bold font-rubik">Dharmasena A.A.</p>
 

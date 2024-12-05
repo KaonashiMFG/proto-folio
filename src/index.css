@@ -9,12 +9,15 @@
     @apply flex h-[500vh] bg-background;
   } 
 
+  h1 {
+    @apply text-header text-[50px]  font-poppins
+  }
+
   span,
   p,
-  h1,
   li {
     /* color: #fdfff7; */
-    @apply text-regularText font-rubik;
+    @apply text-regularText font-rubik text-[16px];
   }
 }
 
@@ -24,6 +27,10 @@
   }
 
   .onHover {
-    @apply hover:rounded-3xl hover:border-secondBoxColor hover:px-3;
+    @apply hover:rounded-3xl hover:border-background hover:px-3;
+  }
+
+  .logoContact {
+    @apply flex flex-col gap-2 items-center justify-center  
   }
 }

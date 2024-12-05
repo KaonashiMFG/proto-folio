@@ -4,17 +4,17 @@ export default function Hero() {
     return (
       <div className="flex p-10 bg-boxColor mt-20 mr-10 ml-5 rounded-lg">
         {/* image */}
-        <div className="mb-10 w-[800px] h-[500px] overflow-hidden">
+        <div className="mb-10 w-[800px] h-[600px] overflow-hidden">
           <img src={me} alt="DHARMASENA w-[900px] h-[500px]" />
         </div>
 
         {/* description */}
         <div className="flex flex-col m-10 -ml-20">
-          <h1>Hello, I'm Dharmasena,</h1>
+          <p>Hello, I'm Dharmasena,</p>
 
-          <span className="text-[80px] text-header font-poppins">
-            WEB DEVELOPER
-          </span>
+          <h1 className="text-[80px] text-header font-poppins">
+            FULL-STACK WEB DEVELOPER
+          </h1>
 
           <p className="text-right ">Based in Indonesia</p>
 
