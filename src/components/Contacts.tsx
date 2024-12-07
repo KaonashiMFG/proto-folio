@@ -11,17 +11,17 @@ export default function Workexp() {
 
           <div className="logoContact">
             <img src= {wa} alt= "Whatsapp icon" className="w-[25px]"/>
-            <p className="text-sm">+62-812-9092-7605</p>
+            <p className="text-sm text-black">+62-812-9092-7605</p>
           </div>
 
           <div className="logoContact">
             <img src= {mail} alt="Email icon"/>
-            <p className="text-sm">dharmasenaakmalaji@outlook.com</p>
+            <p className="text-sm text-black">dharmasenaakmalaji@outlook.com</p>
           </div>
 
           <div className="logoContact">
             <img src= {locate} alt="Adress icon"/>
-            <p className="text-sm">jl. Masjid Al-Anwar No.18</p>
+            <p className="text-sm text-black">jl. Masjid Al-Anwar No.18</p>
           </div>
 
         </div>

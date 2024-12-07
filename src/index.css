@@ -6,11 +6,11 @@
 
 @layer base {
   body {
-    @apply flex h-[500vh] bg-background;
-  } 
+    @apply bg-background;
+  }
 
   h1 {
-    @apply text-header text-[50px]  font-poppins
+    @apply text-header text-[50px]  font-poppins;
   }
 
   span,
@@ -31,6 +31,10 @@
   }
 
   .logoContact {
-    @apply flex flex-col gap-2 items-center justify-center  
+    @apply flex flex-col gap-2 items-center justify-center;
+  }
+
+  .slick-dots li button:before {
+    margin-top: 25px;
   }
 }

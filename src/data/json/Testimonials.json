@@ -1,0 +1,17 @@
+[
+    {
+        "img":"https://images.unsplash.com/photo-1496203695688-3b8985780d6a?q=80&w=1895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "people":"Alessi Cristina",
+        "comments":"Dharmasena is a quick learner with a keen eye for detail. His projects showcase creativity and solid technical skills, making him a promising web developer."
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "people":"Jonas Kreesh",
+        "comments":"Working with Dharmasena is inspiring. His passion for web development and innovative mindset always lead to great results."
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "people":"Rei Makoto",
+        "comments":"Dharmasena brings fresh ideas and professionalism to every project. He’s a rising talent in web development."
+    }
+]
