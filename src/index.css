@@ -16,7 +16,6 @@
   span,
   p,
   li {
-    /* color: #fdfff7; */
     @apply text-regularText font-rubik text-[16px];
   }
 }
@@ -32,9 +31,5 @@
 
   .logoContact {
     @apply flex flex-col gap-2 items-center justify-center;
-  }
-
-  .slick-dots li button:before {
-    margin-top: 25px;
   }
 }

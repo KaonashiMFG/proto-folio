@@ -13,7 +13,7 @@ export default {
         navbar: "#2a6f9a",
         background: "#181919",
         boxColor: "#1e293b",
-        secondBoxColor: "#53565a",
+        secondBoxColor: "#05395a",
         header: "#16abae",
         regularText: "#e4f4f5",
       },
