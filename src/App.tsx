@@ -4,26 +4,26 @@ import Workexp from "./components/Workexp";
 import Skills from "./components/Skills";
 import Contacts from "./components/Contacts";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 // import LogoAnimation from "./components/LogoAnimation";
-
 
 export default function App() {
   return (
     <>
-    
       <Navbar />
 
-      <Hero/>
+      <Hero />
 
-      <Workexp/>
+      <Workexp />
 
-      <Skills/>
+      <Skills />
 
-      <Testimonials/>
+      <Testimonials />
 
-      <Contacts/>
-      
+      <Contacts />
+
+      <Footer />
     </>
   );
 }

@@ -6,8 +6,8 @@ export default function Workexp() {
   return (
     <>
       {/* <div className="flex items-center justify-center gap-3 border bg-navbar border-white w-full"> */}
-        <div className="p-10 bg-navbar flex gap-28 justify-center items-center">
-        <h1 className="text-black">CONTACTS</h1>
+        <div className="p-10 bg-navbar flex gap-28 justify-center items-center max-xl:flex-col max-xl:gap-10">
+        <h1 className="text-black max-xl:underline">CONTACTS</h1>
 
           <div className="logoContact">
             <img src= {wa} alt= "Whatsapp icon" className="w-[25px]"/>
