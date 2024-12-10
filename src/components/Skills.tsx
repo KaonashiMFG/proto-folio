@@ -40,7 +40,7 @@ export default function Skills() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-7 m-10 p-20 bg-boxColor rounded-full">
+      <div id="skills" className="flex flex-col justify-center items-center gap-7 m-10 p-20 bg-boxColor rounded-full">
         <h1 className="-mt-10 mb-2 text-3xl">TOOLS</h1>
 
         <div className="w-full max-w-4xl">

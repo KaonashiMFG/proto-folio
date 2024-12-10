@@ -5,7 +5,7 @@ export default function Workexp() {
   const [showExperience, setShowExperience] = useState(false);
 
   return (
-    <div className="p-4 mt-10">
+    <div id="workexp" className="p-4 mt-10">
       <h1 className="flex justify-center items-center">
         WORK EXPERIENCE
       </h1>

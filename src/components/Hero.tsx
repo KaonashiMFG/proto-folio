@@ -2,10 +2,10 @@ import me from "../images/mememe.jpg";
 
 export default function Hero() {
     return (
-      <div className="flex p-10 bg-boxColor mt-[50px] max-xl:flex-col">
+      <div id="hero" className="flex p-10 bg-boxColor mt-[50px] max-xl:flex-col">
         {/* image */}
-        <div className="max-xl:flex max-xl:justify-center">
-          <img src={me} alt="DHARMASENA" className="max-xl:w-60 "/>
+        <div className="w-[800px] h-[510px] max-xl:w-[15rem] max-xl:h-[23rem]">
+          <img src={me} alt="DHARMASENA" className="max-xl:w-[15rem] max-xl:h-[23rem]"/>
         </div>
 
         {/* description */}

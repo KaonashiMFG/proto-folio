@@ -5,7 +5,7 @@
 export default function Workexp() {
   return (
     <>
-      <div className="p-10 bg-navbar flex gap-28 justify-center items-center max-xl:flex-col max-xl:gap-10">
+      <div id="contacts" className="p-10 bg-navbar flex gap-28 justify-center items-center max-xl:flex-col max-xl:gap-10">
         <h1 className="text-black max-xl:underline">CONTACTS</h1>
 
         <div className="logoContact">
@@ -18,12 +18,12 @@ export default function Workexp() {
         </div>
 
         <div className="logoContact">
-          <img src="/icons/mail.svg" alt="Email icon" />
+          <img src="/icons/mail.svg" alt="Email icon" className="w-[25px]" />
           <p className="text-sm text-black">dharmasenaakmalaji@outlook.com</p>
         </div>
 
         <div className="logoContact">
-          <img src="/icons/locate.svg" alt="Adress icon" />
+          <img src="/icons/locate.svg" alt="Adress icon" className="w-[25px]" />
           <p className="text-sm text-black">jl. Masjid Al-Anwar No.18</p>
         </div>
       </div>

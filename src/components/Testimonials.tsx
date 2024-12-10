@@ -3,7 +3,7 @@ import testimonials from "../data/json/Testimonials.json";
 export default function Testimonials() {
   return (
     <>
-      <div className="flex flex-col justify-center text-center m-20">
+      <div id="testimonials" className="flex flex-col justify-center text-center m-20">
         {/* Responsive header */}
         <h1 className="text-3xl lg:text-5xl sm:text-4xl text-header">
           TESTIMONIALS
