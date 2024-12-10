@@ -47,22 +47,30 @@ export default function Navbar() {
 
       {/* Desktop Menu */}
       <div className="hidden xl:flex p-2 gap-5 rounded-xl">
-        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">Home</a>
-        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">About</a>
-        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">Testimonials</a>
-        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">Contact</a>
+        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+          Home
+        </a>
+        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+          About
+        </a>
+        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+          Testimonials
+        </a>
+        <a className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+          Contact
+        </a>
       </div>
 
       {/* Socials */}
       <div className="hidden xl:flex gap-3">
         <a href="https://www.linkedin.com/in/dharmasena-aji-024765234/">
-          <img src="/src/icons/linkedin.svg" alt="linkedin" className="w-8" />
+          <img src="/icons/linkedin.svg" alt="linkedin" className="w-8" />
         </a>
         <a href="https://www.instagram.com/urenunknacdb/">
-          <img src="/src/icons/instagram.svg" alt="instagram" className="w-8" />
+          <img src="/icons/instagram.svg" alt="instagram" className="w-8" />
         </a>
         <a href="https://github.com/KaonashiMFG">
-          <img src="/src/icons/github.svg" alt="github" className="w-8" />
+          <img src="/icons/github.svg" alt="github" className="w-8" />
         </a>
       </div>
 
@@ -82,10 +90,18 @@ export default function Navbar() {
 
         {/* Menu Items */}
         <div className="flex flex-col items-start gap-5 p-5 mt-20">
-          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">Home</a>
-          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">About</a>
-          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">Testimonials</a>
-          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">Contact</a>
+          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+            Home
+          </a>
+          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+            About
+          </a>
+          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+            Testimonials
+          </a>
+          <a className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+            Contact
+          </a>
         </div>
 
         {/* Socials */}
@@ -94,7 +110,11 @@ export default function Navbar() {
             <img src="/src/icons/linkedin.svg" alt="linkedin" className="w-8" />
           </a>
           <a href="https://www.instagram.com/urenunknacdb/">
-            <img src="/src/icons/instagram.svg" alt="instagram" className="w-8" />
+            <img
+              src="/src/icons/instagram.svg"
+              alt="instagram"
+              className="w-8"
+            />
           </a>
           <a href="https://github.com/KaonashiMFG">
             <img src="/src/icons/github.svg" alt="github" className="w-8" />

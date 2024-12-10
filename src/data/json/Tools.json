@@ -1,50 +1,50 @@
 [
   {
     "name": "Javascript",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
   },
 
   {
     "name": "Typescript",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
   },
 
   {
     "name": "HTML",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
   },
 
   {
     "name": "CSS",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
   },
-  
+
   {
     "name": "React",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
   },
   {
     "name": "TailwindCSS",
     "img": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
   },
-  
+
   {
     "name": "Next.js",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg"
   },
-  
+
   {
     "name": "Node.js",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
   },
-  
+
   {
     "name": "MySQL",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
   },
-  
+
   {
     "name": "Figma",
-    "img": "https:raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
   }
 ]
