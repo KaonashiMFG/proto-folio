@@ -1,5 +1,5 @@
 import tools from "../data/json/Tools.json";
-import projects from "../data/json/Projects.json"
+import projects from "../data/json/Projects.json";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -18,42 +18,45 @@ export default function Skills() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-        }
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <>
-      <div id="skills" className="flex flex-col justify-center items-center gap-7 m-10 p-20 bg-boxColor rounded-full">
+      <div
+        id="skills"
+        className="m-10 flex flex-col items-center justify-center gap-7 rounded-full bg-boxColor p-20"
+      >
         <h1 className="-mt-10 mb-2 text-3xl">TOOLS</h1>
 
         <div className="w-full max-w-4xl">
           <Slider {...settings}>
             {tools.map((el) => (
-              <div className="flex flex-col justify-center items-center gap-3 text-center">
-                <div className="flex flex-col justify-center items-center">
+              <div className="flex flex-col items-center justify-center gap-3 text-center">
+                <div className="flex flex-col items-center justify-center">
                   <img
                     src={el.img}
                     alt={el.name}
-                    className="w-16 h-16 object-contain mb-2"
+                    className="mb-2 h-16 w-16 object-contain"
                   />
-                  <span className="text-white text-sm">{el.name}</span>
+                  <span className="text-sm text-white">{el.name}</span>
                 </div>
               </div>
             ))}
@@ -72,17 +75,17 @@ export default function Skills() {
           <p>I have done some projects, such as ...</p>
         </div>
         {projects.map((el) => (
-              <div className="flex gap-20 mt-10 items-center justify-center max-xl:flex-col max-xl:gap-10 max-xl:mt-20 max-xl:p-">
-                <div className="rounded-xl overflow-hidden">
-                  <img src={el.img} alt={el.projectName} className="max-h-60"/>
-                </div>
-                <div className="flex flex-col gap-3 w-[50%] ">
-                  <h1 className="text-navbar text-4xl">{el.projectName}</h1>
-                  <h1 className="text-sm">{el.intro}</h1>
-                  <p>{el.desc}</p>
-                </div>
-              </div>
-            ))}
+          <div className="mt-10 grid grid-cols-2 items-center justify-center max-xl:mt-20 max-xl:flex-col">
+            <div className="overflow-hidden rounded-xl">
+              <img src={el.img} alt={el.projectName} className="max-h-60" />
+            </div>
+            <div className="flex w-[100%] flex-col gap-3">
+              <h1 className="text-4xl text-navbar">{el.projectName}</h1>
+              <h1 className="text-sm">{el.intro}</h1>
+              <p>{el.desc}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );

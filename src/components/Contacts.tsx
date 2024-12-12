@@ -5,7 +5,10 @@
 export default function Workexp() {
   return (
     <>
-      <div id="contacts" className="p-10 bg-navbar flex gap-28 justify-center items-center max-xl:flex-col max-xl:gap-10">
+      <div
+        id="contacts"
+        className="flex items-center justify-center gap-28 bg-navbar p-10 max-xl:flex-col max-xl:gap-10"
+      >
         <h1 className="text-black max-xl:underline">CONTACTS</h1>
 
         <div className="logoContact">

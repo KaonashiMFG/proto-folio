@@ -5,23 +5,17 @@ export default function Workexp() {
   const [showExperience, setShowExperience] = useState(false);
 
   return (
-    <div id="workexp" className="p-4 mt-10">
-      <h1 className="flex justify-center items-center">
-        WORK EXPERIENCE
-      </h1>
+    <div id="workexp" className="mt-10 p-4">
+      <h1 className="flex items-center justify-center">WORK EXPERIENCE</h1>
 
       {/* JETRO Section */}
-      <div className="flex flex-col items-center mt-5 gap-5">
+      <div className="mt-5 flex flex-col items-center gap-5">
         {/* Image Container */}
         <div
-          className="hover:cursor-pointer hover:animate-pulse rounded-3xl overflow-hidden transform transition-transform duration-500"
+          className="transform overflow-hidden rounded-3xl transition-transform duration-500 hover:animate-pulse hover:cursor-pointer"
           onClick={() => setShowExperience(!showExperience)}
         >
-          <img
-            src={jetro}
-            alt="JETRO"
-            className="w-60 md:w-80"
-          />
+          <img src={jetro} alt="JETRO" className="w-60 md:w-80" />
         </div>
 
         {/* Description Container */}
@@ -31,9 +25,7 @@ export default function Workexp() {
           }`}
         >
           <div className="mt-4 text-center md:text-left">
-            <h1 className="text-lg m-3">
-              Staff for JETRO Survey Project
-            </h1>
+            <h1 className="m-3 text-lg">Staff for JETRO Survey Project</h1>
             <ul className="flex flex-col gap-2">
               <li>
                 • Engaged with Japanese companies to encourage survey
@@ -44,9 +36,9 @@ export default function Workexp() {
                 database using MS Excel and MS Access.
               </li>
               <li>
-                • Coordinated with Indonesian expatriate facilities
-                (apartments, hotels, schools, industrial parks) to gather
-                essential relocation information.
+                • Coordinated with Indonesian expatriate facilities (apartments,
+                hotels, schools, industrial parks) to gather essential
+                relocation information.
               </li>
             </ul>
           </div>

@@ -10,13 +10,13 @@
   }
 
   h1 {
-    @apply text-header text-[50px]  font-poppins;
+    @apply font-poppins text-[50px] text-header;
   }
 
   span,
   p,
   li {
-    @apply text-regularText font-rubik text-[16px];
+    @apply font-rubik text-[16px] text-regularText;
   }
 }
 
@@ -30,6 +30,6 @@
   }
 
   .logoContact {
-    @apply flex flex-col gap-2 items-center justify-center;
+    @apply flex flex-col items-center justify-center gap-2;
   }
 }

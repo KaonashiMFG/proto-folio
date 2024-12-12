@@ -21,15 +21,15 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="flex justify-between fixed items-center p-2 px-5 bg-navbar w-full shadow-md z-50 top-0">
+    <nav className="fixed top-0 z-50 flex w-full items-center justify-between bg-navbar p-2 px-5">
       {/* Title */}
-      <p className="text-black font-bold font-rubik">Dharmasena A.A.</p>
+      <p className="font-rubik font-bold text-black">Dharmasena A.A.</p>
 
       {/* Burger Button */}
       <div className="xl:hidden">
         <button onClick={() => setBurger(!burger)}>
           <svg
-            className="w-8 h-8 text-black"
+            className="h-8 w-8 text-black"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -46,26 +46,41 @@ export default function Navbar() {
       </div>
 
       {/* Desktop Menu */}
-      <div className="hidden xl:flex p-2 gap-5 rounded-xl">
-        <a href="hero" className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+      <div className="hidden gap-5 rounded-xl p-2 xl:flex">
+        <a
+          href="#hero"
+          className="onHover border-2 border-transparent px-3 font-rubik font-normal"
+        >
           About
         </a>
-        <a href="workexp" className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+        <a
+          href="#workexp"
+          className="onHover border-2 border-transparent px-3 font-rubik font-normal"
+        >
           Experience
         </a>
-        <a href="skills" className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+        <a
+          href="#skills"
+          className="onHover border-2 border-transparent px-3 font-rubik font-normal"
+        >
           Skills
         </a>
-        <a href="testimonials" className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+        <a
+          href="#testimonials"
+          className="onHover border-2 border-transparent px-3 font-rubik font-normal"
+        >
           Testimonials
         </a>
-        <a href="contacts" className="onHover font-rubik font-normal border-2 px-3 border-transparent">
+        <a
+          href="#contacts"
+          className="onHover border-2 border-transparent px-3 font-rubik font-normal"
+        >
           Contact
         </a>
       </div>
 
       {/* Socials */}
-      <div className="hidden xl:flex gap-3">
+      <div className="hidden gap-3 xl:flex">
         <a href="https://www.linkedin.com/in/dharmasena-aji-024765234/">
           <img src="/icons/linkedin.svg" alt="linkedin" className="w-8" />
         </a>
@@ -79,44 +94,59 @@ export default function Navbar() {
 
       {/* Burger Menu (Mobile Drawer) */}
       <div
-        className={`fixed top-0 right-0 h-full bg-navbar w-64 shadow-lg z-40 transform ${
+        className={`fixed right-0 top-0 z-40 h-full w-64 transform bg-navbar shadow-lg ${
           burger ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >
         {/* Close Button */}
         <button
           onClick={() => setBurger(false)}
-          className="absolute top-5 right-5 text-black text-2xl font-bold"
+          className="absolute right-5 top-5 text-2xl font-bold text-black"
         >
           ×
         </button>
 
         {/* Menu Items */}
-        <div className="flex flex-col items-start gap-5 p-5 mt-20">
-          <a href="hero" className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+        <div className="mt-20 flex flex-col items-start gap-5 p-5">
+          <a
+            href="#hero"
+            className="onHover border-2 border-transparent px-3 font-rubik font-normal text-black"
+          >
             About
           </a>
-          <a href="workexp" className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+          <a
+            href="#workexp"
+            className="onHover border-2 border-transparent px-3 font-rubik font-normal text-black"
+          >
             Experience
           </a>
-          <a href="skills" className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+          <a
+            href="#skills"
+            className="onHover border-2 border-transparent px-3 font-rubik font-normal text-black"
+          >
             Skills
           </a>
-          <a href="testimonials" className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+          <a
+            href="#testimonials"
+            className="onHover border-2 border-transparent px-3 font-rubik font-normal text-black"
+          >
             Testimonials
           </a>
-          <a href="contacts" className="onHover font-rubik font-normal text-black border-2 px-3 border-transparent">
+          <a
+            href="#contacts"
+            className="onHover border-2 border-transparent px-3 font-rubik font-normal text-black"
+          >
             Contact
           </a>
         </div>
 
         {/* Socials */}
-        <div className="flex gap-3 p-5 mt-5">
+        <div className="mt-5 flex gap-3 p-5">
           <a href="https://www.linkedin.com/in/dharmasena-aji-024765234/">
             <img src="/icons/linkedin.svg" alt="linkedin" className="w-8" />
           </a>
           <a href="https://www.instagram.com/urenunknacdb/">
-            <img src="/icons/instagram.svg" alt="instagram" className="w-8"/>
+            <img src="/icons/instagram.svg" alt="instagram" className="w-8" />
           </a>
           <a href="https://github.com/KaonashiMFG">
             <img src="/icons/github.svg" alt="github" className="w-8" />
@@ -128,7 +158,7 @@ export default function Navbar() {
       {burger && (
         <div
           onClick={() => setBurger(false)}
-          className="fixed inset-0 bg-black bg-opacity-50 z-30"
+          className="fixed inset-0 z-30 bg-black bg-opacity-50"
         ></div>
       )}
     </nav>
