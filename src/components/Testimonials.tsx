@@ -20,16 +20,16 @@ export default function Testimonials() {
           {testimonials.map((el) => (
             <div className="flex max-w-64 flex-col items-center gap-7 rounded-lg border border-gray-200 p-10 shadow-lg sm:w-full sm:flex-col lg:w-1/3">
               {/* Profile Picture */}
-              <div className="h-20 w-20 overflow-hidden rounded-full border-[3px] border-navbar">
+              <div className="h-20 w-20 overflow-hidden rounded-full border-[3px] border-header">
                 <img src={el.img} alt={el.people} />
               </div>
               {/* Person and Title */}
               <div className="h-24">
-                <h1 className="text-xl text-navbar">{el.people}</h1>
-                <h1 className="text-[13px]">{el.title}</h1>
+                <h1 className="text-2xl text-navbar">{el.people}</h1>
+                <h1 className="text-[13px] mt-1">{el.title}</h1>
               </div>
               {/* Comments */}
-              <p className="-mt-5 text-sm">{el.comments}</p>
+              <p className="-mt-10 text-sm">{el.comments}</p>
             </div>
           ))}
         </div>

@@ -75,7 +75,7 @@ export default function Skills() {
           <p>I have done some projects, such as ...</p>
         </div>
         {projects.map((el) => (
-          <div className="mt-10 grid grid-cols-2 items-center justify-center max-xl:mt-20 max-xl:flex-col">
+          <div className="mt-10 grid grid-cols-2 items-center justify-center max-xl:mt-20 max-xl:grid-rows-2">
             <div className="overflow-hidden rounded-xl">
               <img src={el.img} alt={el.projectName} className="max-h-60" />
             </div>

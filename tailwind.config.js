@@ -14,7 +14,7 @@ export default {
         background: "#181919",
         boxColor: "#1e293b",
         secondBoxColor: "#05395a",
-        header: "#16abae",
+        header: "#fed43a",
         regularText: "#e4f4f5",
       },
     },
