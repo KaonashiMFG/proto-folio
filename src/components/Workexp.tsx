@@ -1,5 +1,5 @@
 import { useState } from "react";
-import jetro from "../images/Jetro-1-1170x600.png";
+import jetro from "../images/Jetro-1-1170x600.avif";
 
 export default function Workexp() {
   const [showExperience, setShowExperience] = useState(false);

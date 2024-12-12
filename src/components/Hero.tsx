@@ -1,4 +1,4 @@
-import me from "../images/mememe.jpg";
+import me from "../images/mememe.avif";
 
 export default function Hero() {
   return (
