@@ -3,10 +3,8 @@ import testimonials from "../data/json/Testimonials.json";
 export default function Testimonials() {
   return (
     <>
-      <div
-        id="testimonials"
-        className="m-20 flex flex-col justify-center text-center"
-      >
+      <div className="h-5" id="testimonials"></div>
+      <div className="my-20 flex flex-col justify-center text-center">
         {/* Responsive header */}
         <h1 className="text-3xl text-header sm:text-4xl lg:text-5xl">
           TESTIMONIALS
@@ -26,10 +24,10 @@ export default function Testimonials() {
               {/* Person and Title */}
               <div className="h-24">
                 <h1 className="text-2xl text-navbar">{el.people}</h1>
-                <h1 className="text-[13px] mt-1">{el.title}</h1>
+                <h1 className="mt-1 text-[13px]">{el.title}</h1>
               </div>
               {/* Comments */}
-              <p className="-mt-10 text-sm">{el.comments}</p>
+              <p className="text-sm">{el.comments}</p>
             </div>
           ))}
         </div>

@@ -11,25 +11,23 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
 
       <main className="mx-auto max-w-[950px]">
         <Hero />
-
-        <Workexp />
-
-        <Skills />
-
-        <Testimonials />
       </main>
+
+      <Workexp />
+
+      <main className="mx-auto max-w-[950px]">
+        <Skills />
+      </main>
+
+      <Testimonials />
 
       <Contacts />
 
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }

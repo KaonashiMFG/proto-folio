@@ -40,10 +40,8 @@ export default function Skills() {
 
   return (
     <>
-      <div
-        id="skills"
-        className="m-10 flex flex-col items-center justify-center gap-7 rounded-full bg-boxColor p-20"
-      >
+      <div className="h-10" id="skills"></div>
+      <div className="m-10 flex flex-col items-center justify-center gap-7 rounded-full bg-boxColor p-20">
         <h1 className="-mt-10 mb-2 text-3xl">TOOLS</h1>
 
         <div className="w-full max-w-4xl">
@@ -64,20 +62,19 @@ export default function Skills() {
         </div>
       </div>
 
-      {/* <style jsx global>{`
-        .slick-dots li button:before {
-          color: white;
-      }`}</style> */}
-
       <div className="m-20 p-3 max-xl:m-0 max-xl:p-0">
         <div className="bg-secondBoxColor p-7">
           <h1>PROJECTS</h1>
           <p>I have done some projects, such as ...</p>
         </div>
         {projects.map((el) => (
-          <div className="mt-10 grid grid-cols-2 items-center justify-center max-xl:mt-20 max-xl:grid-rows-2">
+          <div className="mt-10 grid grid-cols-2 items-center justify-center gap-10 max-xl:grid-cols-1 max-xl:p-10">
             <div className="overflow-hidden rounded-xl">
-              <img src={el.img} alt={el.projectName} className="max-h-60" />
+              <img
+                src={el.img}
+                alt={el.projectName}
+                className="max-h-60 w-full object-cover"
+              />
             </div>
             <div className="flex w-[100%] flex-col gap-3">
               <h1 className="text-4xl text-navbar">{el.projectName}</h1>
